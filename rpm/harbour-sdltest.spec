@@ -18,9 +18,7 @@ BuildRequires: pkgconfig(SDL2_mixer)
 Short description of my SailfishOS Application
 
 %prep
-%setup -q -n %{name}-%{version}
-# Command used to configure / set up the application
-#%configure
+%setup -q
 
 %build
 # Command used to compile the application
